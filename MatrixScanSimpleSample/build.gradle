@@ -32,7 +32,7 @@ android {
 dependencies {
     api "com.scandit.datacapture:core:${versions.scandit_sdk_version}"
     api "com.scandit.datacapture:barcode:${versions.scandit_sdk_version}"
-    implementation "com.github.pavpolscan:armanager-lib-android:0.0.8"
+    implementation "com.github.pavpolscan:armanager-lib-android:0.0.9"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
 

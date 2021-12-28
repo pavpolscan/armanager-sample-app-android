@@ -169,7 +169,7 @@ public class MatrixScanActivity extends CameraPermissionActivity
     }
 
     private void initARManager(Context context, DataCaptureView dataCaptureView) {
-        arManager=ARManager.getInstance(context, dataCaptureView);
+        arManager=ARManager.newInstance(context, dataCaptureView);
 
         int[] largeViewRows= {1,2,3};
         ARView largeTemplate = arManager.createView(this,largeViewRows);
